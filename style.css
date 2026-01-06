@@ -1,0 +1,2081 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #343a40;
+}
+
+.all-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item .dropdown-menu {
+    left: 0px;
+    top: 40px;
+}
+
+.all-items ul li {
+    margin: 0px 8px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    margin-bottom: 0px;
+}
+
+.icons li {
+    margin: 0px 10px !important;
+    list-style: none;
+}
+
+.icons li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.list-items-icon-div {
+    display: flex;
+    align-items: center;
+    margin-left: 135px;
+}
+
+#first-slid .container-fluid {
+    padding: 0px;
+}
+
+.main-slid-one {
+    background-image: url("images/slide_1.jpg.webp");
+    background-size: cover;
+    background-position: center;
+    padding: 200px 180px;
+    position: relative;
+    z-index: 1;
+}
+
+.main-slid-one::before {
+    background: rgba(0, 0, 0, 0.7);
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.main-slid-two {
+    background-image: url("images/slide_2.jpg.webp");
+    background-size: cover;
+    background-position: center;
+    padding: 200px 180px;
+    position: relative;
+    z-index: 1;
+}
+
+.main-slid-two::before {
+    background: rgba(0, 0, 0, 0.7);
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.main-slid-text {
+    text-align: center;
+}
+
+.main-slid-text h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 1.3;
+}
+
+.main-slid-text p {
+    color: #fff;
+    padding: 20px 0px;
+}
+
+.main-slide-text-button {
+    margin-top: 60px;
+}
+
+.main-slide-text-button a {
+    background: transparent;
+    padding: 8px 30px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 0px 10px;
+    transition: .2s all ease-in;
+}
+
+.main-slide-text-button a:hover {
+    background-color: #f39c12;
+    border-color: #f39c12;
+}
+
+#freight {
+    padding: 60px 0px;
+    background-color: #f7f9fc;
+}
+
+.freight-card {
+    position: relative;
+    box-shadow: 0 3px 7px #ddd
+}
+
+.freight-card-3 {
+    position: relative;
+    box-shadow: 0 3px 7px #ddd
+}
+
+.freight-card-img img {
+    width: 100%;
+}
+
+.freight-card-text {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.freight-card-text h3 {
+    font-size: 18px;
+    color: #3c4a62;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .2s all ease-in;
+}
+
+.freight-card-text h3:hover {
+    color: #f39c12;
+}
+
+.freight-card-text p {
+    color: #687284;
+    line-height: 1.7rem;
+    font-size: 14px;
+    font-family: 400;
+    padding: 10px 0px;
+}
+
+.freight-card-text-logo {
+    background-color: #f39c12;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 50px;
+    width: 70px;
+    position: absolute;
+    top: 44%;
+}
+
+.freight-card-text-logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.freight-card-btn {
+    margin: 10px 0px;
+}
+
+.freight-card-btn a:hover {
+    background-color: #f39c12;
+}
+
+.freight-card-btn a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #687284;
+    border-radius: 5px;
+    transition: .2s all ease-in;
+}
+
+i.fa-solid.fa-ship {
+    padding-top: 15px;
+}
+
+i.fa-solid.fa-plane-departure {
+    padding-top: 15px;
+}
+
+i.fa-solid.fa-truck {
+    padding-top: 15px;
+}
+
+#form-text {
+    background-color: #f7f9fc;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.form-text-inner-form {
+    background-color: #eef1f5;
+    padding: 20px;
+}
+
+.form-text-inner-form h3 {
+    text-transform: uppercase;
+    color: #3c4a62;
+    margin-bottom: 20px;
+}
+
+.form-group-half input {
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 0px;
+}
+
+.form-group input {
+    border: none;
+    border-radius: 0px;
+}
+
+.form-massage {
+    margin-top: 25px;
+}
+
+.form-massage textarea {
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.form-brn {
+    margin-top: 20px;
+}
+
+.form-brn button {
+    padding: 10px 25px;
+    background-color: #687284;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    transition: .2s all ease-in;
+}
+
+.form-brn button:hover {
+    background-color: #f39c12;
+}
+
+.form-group {
+    margin: 0px 0px 20px 0px;
+}
+
+.form-text-inner-text {
+    margin-left: 8.33333333%;
+}
+
+.form-text-inner-text h1 {
+    color: #3c4a62;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 1.4;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+
+.form-text-inner-text p {
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #687284;
+}
+
+.form-text-inner-text-btn {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.form-text-inner-text-btn a {
+    text-decoration: none;
+    color: #687284;
+    font-size: 14px;
+    transition: .2s all ease-in;
+}
+
+.form-text-inner-text-btn a:hover {
+    color: #f39c12;
+}
+
+.form-text-inner-text-btn a:hover .fa-angle-right {
+    margin-left: 10px;
+}
+
+.form-text-inner-text-btn a .fa-angle-right {
+    margin-left: 5px;
+    font-size: 12px;
+    transition: .2s all ease-in;
+}
+
+.form-text-inner-text-icon {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.form-text-inner-text-icon-1 h3 {
+    color: #f39c12;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+.form-text-inner-text-icon-1 h3 i {
+    margin-right: 5px;
+}
+
+.form-text-inner-text-icon-1 h3 .fa-users {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+#our-service {
+    padding-top: 60px;
+}
+
+.our-service-top-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.our-service-top-heading h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 1;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #3c4a62;
+}
+
+.our-service-top-heading h1::before {
+    background: rgba(0, 0, 0, 0) url(images/title-border.png.webp) repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100px;
+}
+
+.our-service-top-heading h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f39c12;
+    height: 4px;
+    width: 20px;
+}
+
+.our-service-top-heading p {
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #687284;
+    /* padding: 0px 460px; */
+}
+
+/* .our-service-content{
+
+} */
+.our-service-content h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    position: relative;
+    color: #3c4a62;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.our-service-content h1::after {
+    border-bottom: 1px dashed rgb(243, 156, 18);
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+
+.our-service-content p {
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #687284;
+}
+
+.our-service-content-btn {
+    margin: 30px 0px;
+}
+
+.our-service-content-btn a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #687284;
+    border-radius: 5px;
+    transition: .2s all ease-in;
+}
+
+.our-service-content-btn a:hover {
+    background-color: #f39c12;
+}
+
+.our-service-img {
+    background: rgba(0, 0, 0, 0) url(images/service-cargo-bg.png.webp) no-repeat scroll center center / contain;
+    position: relative;
+}
+
+.our-service-img-text {
+    background: rgba(243, 156, 18, 0.9) none repeat scroll 0 0;
+    color: #fff;
+    padding: 30px;
+}
+
+.our-service-img-text h3 {
+    color: #fff;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.our-service-img-text h3::after {
+    border-bottom: 1px dashed;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+
+.our-service-img-text p {
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+}
+
+.our-service-img-text ul {
+    padding-left: 0px;
+}
+
+.our-service-img-text ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+}
+
+.our-service-img-text ul li .fa-check {
+    margin-right: 10px;
+}
+
+.our-service-img-text-btn {
+    margin: 30px 0px 10px 0px;
+}
+
+.our-service-img-text-btn a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #687284;
+    border-radius: 5px;
+    transition: .2s all ease-in;
+}
+
+.our-service-img-text-btn a:hover {
+    background-color: #fff;
+    color: #f39c12;
+}
+
+/* #house{
+    position: relative;
+} */
+.house-bg-div {
+    background: rgba(0, 0, 0, 0) url(images/service-area-bg.jpg.webp) repeat scroll 0 0;
+    /* background-size: cover; */
+    height: 100%;
+    width: 100%;
+}
+
+.house-text-logo {
+    position: absolute;
+    left: -4%;
+    top: 13%;
+    transition: .3s all ease-in;
+}
+
+.house-text-logo .fa-box-open {
+    color: white;
+    background-color: #687284;
+    padding: 20px;
+    font-size: 18px;
+    outline: #fff solid 10px;
+}
+
+.house-text-logo-2 {
+    position: absolute;
+    left: -4%;
+    top: 34%;
+    transition: .3s all ease-in;
+}
+
+.house-text-logo-2 .fa-truck {
+    color: white;
+    background-color: #687284;
+    padding: 20px;
+    font-size: 18px;
+    outline: #fff solid 10px;
+}
+
+.house-text-logo-3 {
+    position: absolute;
+    left: -4%;
+    top: 55%;
+    transition: .3s all ease-in;
+}
+
+.house-text-logo-3 .fa-ship {
+    color: white;
+    background-color: #687284;
+    padding: 20px;
+    font-size: 18px;
+    outline: #fff solid 10px;
+}
+
+.house-text-logo-4 {
+    position: absolute;
+    left: -4%;
+    top: 76%;
+    transition: .3s all ease-in;
+}
+
+.house-text-logo-4 .fa-plane-departure {
+    color: white;
+    background-color: #687284;
+    padding: 20px;
+    font-size: 18px;
+    outline: #fff solid 10px;
+}
+
+.house-text-main {
+    padding: 100px 140px 30px 80px;
+    position: relative;
+    background-color: #f5f7f9;
+}
+
+.house-text {
+    margin-bottom: 50px;
+}
+
+.house-text-area h3 {
+    color: #3c4a62;
+    margin: 0 0 15px;
+    font-weight: 700;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 18px;
+    transition: .2s all ease-in;
+}
+
+.house-text:hover .house-text-area h3 {
+    color: #f39c12;
+}
+
+.house-text:hover .house-text-logo i,
+.house-text:hover .house-text-logo-2 i,
+.house-text:hover .house-text-logo-3 i,
+.house-text:hover .house-text-logo-4 i {
+    background-color: #f39c12;
+}
+
+.house-text-area p {
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #687284;
+}
+
+.house-text-area-btn a {
+    text-decoration: none;
+    color: #687284;
+}
+
+/* .work-main-img img{
+    width: 100%;
+} */
+.work-bg-div {
+    background: rgba(0, 0, 0, 0) url("images/promo_top_bg.png.webp") no-repeat scroll right 5% bottom 50% / 40% auto;
+    padding: 100px 0px;
+}
+
+.work-main-text {
+    display: flex;
+    margin-bottom: 50px;
+    position: relative;
+    padding: 20px 20px 20px 75px;
+}
+
+.work-main-text-logo {
+    background: #f4f7f9 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #f39c12;
+    font-size: 24px;
+    height: 70px;
+    padding-top: 15px;
+    text-align: center;
+    width: 70px;
+    position: absolute;
+    top: 0;
+    left: -8px;
+}
+
+.work-main-text-content h3 {
+    color: #3c4a62;
+    margin: 0 0 15px;
+    font-weight: 700;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    font-size: 25px;
+    position: relative;
+}
+
+.work-main-text-content p {
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #687284;
+}
+
+.fixed-sec-main-div {
+    background: url("images/promo_bottom_bg.jpg.webp");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    padding: 100px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.fixed-sec-main-div::after {
+    background: #3c4a62;
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: .9;
+}
+
+.fixed-sec-content {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+#fixed-sec {
+    position: relative;
+}
+
+.fixed-sec-content h1 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.fixed-sec-btn a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 40px;
+    background-color: #f39c12;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: .2s all ease-in;
+}
+
+.fixed-sec-btn a:hover {
+    color: #f39c12;
+    background-color: #fff;
+}
+
+footer {
+    position: relative;
+}
+
+.footer-bg {
+    background: #5d6b82;
+    padding: 100px 0px;
+    position: relative;
+    z-index: 9;
+}
+
+.footer-bg::after {
+    background: rgba(0, 0, 0, 0) url("images/footer-map-bg.png.webp") no-repeat scroll center center / 90% auto;
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.footer-one-content {
+    border-bottom: 1px solid dotted black;
+}
+
+.footer-two-content-text-four ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.footer-two-content-text-four ul li {
+    float: left;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    width: 31.33%;
+}
+
+.footer-two-content-text-four ul li img {
+    width: 100%;
+    height: auto;
+}
+
+.footer-one-content-text h1 {
+    line-height: 1;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 36px;
+}
+
+.footer-one-content-text p {
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer-one-content-form input {
+    padding: 15px 10px;
+    width: 360px;
+    border-radius: 5px;
+    border: none;
+}
+
+.footer-one-content-form button {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-left: 8px;
+    border: none;
+}
+
+.footer-two-content-text h3,
+.footer-two-content-text-two h3,
+.footer-two-content-text-three h3,
+.footer-two-content-text-four h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.footer-two-content-text h3::after,
+.footer-two-content-text-two h3::after,
+.footer-two-content-text-three h3::after,
+.footer-two-content-text-four h3::after {
+    border-bottom: 1px dashed #f39c12;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+
+.footer-two-content-text p {
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #a1a7b2;
+}
+
+.footer-two-content-text ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 30px;
+    color: #a1a7b2;
+}
+
+.footer-two-content-text ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+}
+
+.footer-two-content-text ul li a {
+    text-decoration: none;
+    color: #a1a7b2;
+    margin-left: 10px;
+    transition: .2s all ease-in;
+}
+
+.footer-two-content-text ul li a:hover {
+    color: #f39c12;
+}
+
+.footer-two-content-text-two-div-1,
+.footer-two-content-text-two-div-2 {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-two-content-text-two-div-1-icon .fa-phone {
+    color: #f39c12;
+    font-size: 12px;
+}
+
+.footer-two-content-text-two-div-1-p {
+    margin-bottom: 20px;
+}
+
+.footer-two-content-text-two-div-1-p p {
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #a1a7b2;
+    margin-bottom: 10px;
+}
+
+.footer-two-content-text-two-div-1-p a {
+    text-decoration: none;
+    color: #a1a7b2;
+    font-size: 14px;
+    transition: .2s all ease-in;
+}
+
+.footer-two-content-text-two-div-1-p a:hover {
+    color: #f39c12;
+}
+
+.footer-two-content-text-three ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footer-two-content-text-three ul li {
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.footer-two-content-text-three ul li .fa-hand-point-right {
+    color: #a1a7b2;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.footer-two-content-text-three ul li a {
+    text-decoration: none;
+    color: #a1a7b2;
+    font-size: 14px;
+    transition: all .2s ease-in;
+}
+
+.footer-two-content-text-three ul li a:hover {
+    color: #f39c12;
+}
+
+.footer-three-content-social ul {
+    list-style: none;
+    padding-left: 0px;
+    text-align: right;
+}
+
+.footer-three-content-social ul li {
+    display: inline;
+    margin: 0px 2px;
+    background: rgba(255, 255, 255, 0.1) none repeat scroll 0;
+    padding: 5px;
+    border-radius: 50%;
+    transition: .2s all ease-in;
+}
+
+.footer-three-content-social ul li:hover {
+    background-color: #f39c12;
+}
+
+.footer-three-content-social ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.footer-three-content-social ul li .fa-facebook-f {
+    padding: 10px 5px;
+}
+
+.footer-three-content-social ul li .fa-vimeo-v {
+    padding: 10px 3px;
+}
+
+.footer-three-content-social ul li .fa-twitter {
+    padding: 10px 3px;
+}
+
+.footer-three-content-social ul li .fa-behance {
+    padding: 10px 3px;
+}
+
+.footer-three-content-social ul li .fa-dribbble {
+    padding: 10px 3px;
+}
+
+.footer-three-content-text p {
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer-three-content-text a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-three-content-text span {
+    font-size: 22px;
+}
+
+.footer-one-content {
+    padding: 70px 0px;
+}
+
+.footer-two-content-text {
+    margin-bottom: 80px;
+}
+
+.client-top-heading {
+    text-align: center;
+    padding: 70px 0px;
+}
+
+.client-top-heading h1 {
+    display: inline-block;
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 1;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+    color: #3c4a62;
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+.client-top-heading h1::before {
+    background: rgba(0, 0, 0, 0) url(images/title-border.png.webp) repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100px;
+}
+
+.client-top-heading h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f39c12;
+    height: 4px;
+    width: 20px;
+}
+
+.client-carousel-text-icon {
+    margin-bottom: 10px;
+}
+
+.client-carousel-text-icon .fa-quote-left {
+    color: #5d6b82;
+    font-size: 69px;
+    height: 60px;
+    opacity: 0.5;
+    line-height: 1;
+}
+
+.client-carousel-content {
+    text-align: center;
+    padding: 50px;
+}
+
+.client-carousel-content q {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin-bottom: 37px;
+    color: #687284;
+}
+
+.client-carousel-content h3 {
+    color: #3c4a62;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 24px;
+}
+
+.client-carousel-content p {
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #687284;
+}
+
+/* .client-carousel-img img{
+    border-radius: 50%;
+} */
+#carousel-3 button.owl-prev {
+    position: absolute;
+    top: 18%;
+    left: -5%;
+    /* background-color: #3c4a62;
+    color: white !important; */
+}
+
+#carousel-3 button.owl-next {
+    position: absolute;
+    top: 18%;
+    left: 100%;
+}
+
+.owl-slider .carousel-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.client-carousel-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid transparent;
+    transition: 0.3s ease;
+}
+
+.owl-item.center .client-carousel-img img {
+    border: 6px solid #f39c12;
+}
+
+
+@media(max-width:1199px) {
+    .list-items-icon-div {
+        margin-left: 100px;
+    }
+
+    .nav-item a {
+        font-size: 14px;
+    }
+
+    .all-items ul li {
+        margin: 0px 2px;
+    }
+
+    .icons li a {
+        font-size: 14px;
+    }
+
+    .main-slid-text h1 {
+        font-size: 50px;
+    }
+
+    .main-slid-one,
+    .main-slid-two {
+        padding: 130px 180px;
+    }
+
+    #first-slid .owl-dots {
+        display: none;
+    }
+
+    .freight-card-text-logo {
+        top: 37%;
+        left: 0;
+    }
+
+    .freight-card-text {
+        padding: 30px 20px;
+    }
+
+    .freight-card-text p {
+        line-height: 1.5rem;
+    }
+
+    .our-service-content h1 {
+        font-size: 27px;
+    }
+
+    .fixed-sec-content {
+        padding: 0px 35px;
+    }
+
+    .footer-one-content-form input {
+        width: 305px;
+    }
+
+    .footer-one-content-form button {
+        padding: 15px 25px;
+    }
+
+    /* #client-carousel .owl-carousel .owl-item,
+#client-carousel .owl-carousel .item {
+  width: 120px !important; Force item width to match image size
+} */
+
+}
+
+@media(max-width:1025px) {
+    #carousel-3 button.owl-next {
+        top: 11%;
+        left: 95%;
+    }
+
+    #carousel-3 button.owl-prev {
+        top: 11%;
+        left: 2%;
+    }
+
+    .main-slid-one,
+    .main-slid-two {
+        padding: 475px 90px;
+    }
+
+    .form-text-inner-text h1 {
+        font-size: 38px;
+    }
+
+    .house-text-main {
+        padding: 100px 50px 30px 90px;
+    }
+
+    .house-text-logo {
+        left: -6%;
+        top: 9%;
+    }
+
+    .house-text-logo-2 {
+        left: -6%;
+        top: 32%;
+    }
+
+    .house-text-logo-3 {
+        left: -6%;
+        top: 53%;
+    }
+
+    .house-text-logo-4 {
+        left: -6%;
+        top: 75%;
+    }
+
+    .footer-bg {
+        padding: 30px 0px;
+    }
+}
+
+@media(max-width:991px) {
+    .nav-logo a img {
+        width: 60px;
+    }
+
+    .list-items-icon-div {
+        margin-left: 0px;
+    }
+
+    .nav-item a {
+        font-size: 12px;
+    }
+
+    .icons li a {
+        font-size: 12px;
+    }
+
+    .main-slid-one,
+    .main-slid-two {
+        padding: 70px 50px;
+    }
+
+    .main-slid-text h1 {
+        font-size: 40px;
+    }
+
+    .freight-card-text-logo {
+        top: 45%;
+    }
+
+    .freight-card-3 .freight-card-text-logo {
+        top: 68%;
+    }
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 790px;
+    }
+
+    .form-text-inner-text {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .our-service-content h1 {
+        font-size: 32px;
+    }
+
+    .our-service-content p {
+        font-size: 15px;
+    }
+
+    .our-service-img {
+        margin-top: 30px;
+    }
+
+    .house-text-main {
+        padding: 100px 140px 30px 200px;
+    }
+
+    .house-text-logo {
+        left: 11%;
+        top: 13%;
+    }
+
+    .house-text-logo-2 {
+        left: 11%;
+        top: 34%;
+    }
+
+    .house-text-logo-3 {
+        left: 11%;
+        top: 55%;
+    }
+
+    .house-text-logo-4 {
+        left: 11%;
+        top: 76%;
+    }
+
+    .work-bg-div {
+        background: none;
+        padding: 100px 0px;
+    }
+
+    .footer-one-content-form input {
+        width: 500px;
+    }
+
+    .footer-one-content-form button {
+        padding: 15px 50px;
+    }
+
+    .footer-three-content-social ul {
+        text-align: center;
+    }
+
+    .footer-three-content-text p {
+        text-align: center;
+    }
+
+    .footer-three-content {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:913px) {
+
+    .main-slid-one,
+    .main-slid-two {
+        padding: 50px 50px;
+    }
+
+    #freight {
+        padding: 60px 60px;
+    }
+
+    .freight-card-text-logo {
+        top: 45%;
+    }
+
+    #our-service {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .client-carousel-content {
+        padding: 38px;
+    }
+
+    .footer-one-content-form button {
+        margin-left: 73px;
+    }
+}
+
+@media(max-width:821px) {
+    .owl-nav {
+        display: none;
+    }
+
+    .list-items-icon-div {
+        margin-left: 30px;
+    }
+
+    .main-slid-one,
+    .main-slid-two {
+        padding: 70px 50px;
+    }
+
+    #freight {
+        padding: 60px 20px;
+    }
+
+    #form-text {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #our-service {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .house-text-main {
+        padding: 100px 70px 30px 120px;
+    }
+
+    .house-text-logo {
+        left: 3%;
+        top: 11%;
+    }
+
+    .house-text-logo-2 {
+        left: 3%;
+        top: 33%;
+    }
+
+    .house-text-logo-3 {
+        left: 3%;
+        top: 54%;
+    }
+
+    .house-text-logo-4 {
+        left: 3%;
+        top: 75%;
+    }
+
+    .work-bg-div {
+        padding: 100px 20px;
+    }
+
+    .client-carousel-content {
+        padding: 25px;
+    }
+
+    .footer-bg {
+        padding: 30px 15px;
+    }
+
+    .footer-one-content-form button {
+        margin-left: 55px;
+    }
+}
+
+@media(max-width:769px) {
+
+    .main-slid-one,
+    .main-slid-two {
+        padding: 50px 50px;
+    }
+
+    .owl-nav {
+        display: none;
+    }
+
+    .freight-card-text-logo {
+        top: 45%;
+    }
+
+    .freight-card-3 .freight-card-text-logo {
+        top: 66%;
+    }
+
+    #freight {
+        padding: 60px 15px;
+    }
+
+    #form-text {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .footer-bg {
+        padding: 25px 0px;
+    }
+
+    .client-carousel-content {
+        padding: 5px;
+    }
+
+}
+
+@media(max-width:767px) {
+    #carousel-3 button.owl-next {
+        position: absolute;
+        top: 15%;
+        left: 90%;
+    }
+
+    .main-slid-one,
+    .main-slid-two {
+        padding: 90px 50px;
+    }
+
+    #carousel-3 button.owl-prev {
+        position: absolute;
+        top: 15%;
+        left: 5%;
+    }
+
+    button.navbar-toggler {
+        margin-left: 580px;
+    }
+
+    button.navbar-toggler.collapsed {
+        margin-left: 572px;
+        position: relative;
+    }
+
+    .list-items-icon-div {
+        margin-left: 0px;
+        position: absolute;
+        z-index: 2;
+        background: black;
+        width: 100%;
+        left: 0;
+        top: 100%;
+    }
+
+    .list-items-icon {
+        display: none;
+    }
+
+    a#navbardrop {
+        color: white;
+        font-size: 15px;
+    }
+
+    .main-slid-text h1 {
+        font-size: 20px;
+    }
+
+    .main-slid-text p {
+        padding: 20px 0px;
+        font-size: 14px;
+    }
+
+    .freight-card-text-logo {
+        top: 66%;
+    }
+
+    .form-text-inner-text h1 {
+        font-size: 30px;
+    }
+
+    .our-service-content h1 {
+        font-size: 26px;
+    }
+
+    .our-service-content p {
+        font-size: 14px;
+    }
+
+    .house-text-main {
+        padding: 40px 40px 30px 100px;
+    }
+
+    .house-text-logo {
+        left: 1%;
+        top: 5%;
+    }
+
+    .house-text-logo-2 {
+        left: 1%;
+        top: 28%;
+    }
+
+    .house-text-logo-3 {
+        left: 1%;
+        top: 52%;
+    }
+
+    .house-text-logo-4 {
+        left: 1%;
+        top: 74%;
+    }
+
+    .work-main-text-content h3 {
+        font-size: 20px;
+    }
+
+    .work-main-text-logo {
+        font-size: 22px;
+        height: 60px;
+        padding-top: 14px;
+        width: 60px;
+    }
+
+    .fixed-sec-content h1 {
+        font-size: 19px;
+    }
+
+    .client-carousel-img {
+        height: 225px;
+    }
+
+    .owl-carousel .owl-item img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-bg {
+        padding: 0px 0px;
+    }
+
+    .footer-one-content-text h1 {
+        font-size: 25px;
+    }
+
+    .footer-one-content-form input {
+        width: 450px;
+        padding: 10px;
+    }
+
+    .footer-one-content-form button {
+        padding: 10px 20px;
+        margin-left: 155px;
+    }
+
+    .navbar-collapse {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease;
+    }
+
+    .navbar-collapse.show {
+        max-height: 500px;
+    }
+     .navbar-toggler {
+        margin-left: auto;
+    }
+
+    .nav-logo {
+        margin-left: 0 !important;
+    }
+
+    .all-items {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+     .navbar-brand img {
+        max-height: 40px;
+    }
+    
+}
+
+@media(max-width:663px) {
+    button.navbar-toggler.collapsed {
+        margin-left: 470px;
+    }
+}
+
+@media(max-width:576px) {
+    button.navbar-toggler.collapsed {
+        margin-left: 380px;
+    }
+
+    .main-slid-one,
+    .main-slid-two {
+        padding: 80px 0px;
+    }
+
+    .main-slid-text h1 {
+        font-size: 17px;
+    }
+
+    .main-slide-text-button a {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .freight-card-text-logo {
+        top: 58%;
+    }
+
+    .freight-card-3 .freight-card-text-logo {
+        top: 58%;
+    }
+
+    .form-text-inner-text h1 {
+        font-size: 25px;
+    }
+
+    .house-text-main {
+        padding: 40px 5px 30px 100px;
+    }
+
+    .house-text-logo {
+        left: 2%;
+    }
+
+    .house-text-logo-2 {
+        left: 2%;
+    }
+
+    .house-text-logo-3 {
+        left: 2%;
+    }
+
+    .house-text-logo-4 {
+        left: 2%;
+    }
+
+    .house-text-logo .fa-box-open,
+    .house-text-logo-2 .fa-truck,
+    .house-text-logo-3 .fa-ship,
+    .house-text-logo-4 .fa-plane-departure {
+        outline: none;
+    }
+
+    .work-bg-div {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .work-main-text {
+        margin-bottom: 15px;
+    }
+
+    .client-carousel-img {
+        height: 505px;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .owl-nav {
+        display: none;
+    }
+
+    .client-carousel-content {
+        padding: 0px;
+    }
+
+    .footer-one-content-form input {
+        width: 315px;
+        padding: 8px;
+    }
+
+    .footer-one-content-form button {
+        padding: 8px 15px;
+        margin-left: 100px;
+    }
+}
+
+@media(max-width:541px) {
+
+    button.navbar-toggler {
+        margin-left: 320px;
+    }
+
+    .main-slid-one,
+    .main-slid-two {
+        padding: 220px 0px;
+    }
+
+    #freight {
+        padding: 40px 15px;
+    }
+
+    .freight-card-text-logo {
+        top: 56%;
+    }
+
+    .freight-card-3 .freight-card-text-logo {
+        top: 56%;
+    }
+
+    .client-carousel-img {
+        height: 400px;
+        width: 400px;
+    }
+
+    .footer-one-content-form button {
+        margin-left: 75px;
+    }
+
+    button.navbar-toggler.collapsed {
+        margin-left: 350px;
+    }
+}
+
+@media(max-width:431px) {
+
+    .main-slid-one,
+    .main-slid-two {
+        padding: 305px 0px;
+    }
+
+    button.navbar-toggler {
+        margin-left: 235px;
+    }
+
+    .freight-card-text-logo {
+        top: 47%;
+    }
+
+    .freight-card-3 .freight-card-text-logo {
+        top: 47%;
+    }
+
+    #our-service {
+        padding-bottom: 60px;
+    }
+
+    .footer-one-content-form button {
+        margin-left: 70px;
+    }
+}
+@media(max-width:426px){
+    button.navbar-toggler.collapsed {
+    margin-left: 230px;
+}
+.main-slid-one, .main-slid-two {
+    padding: 60px 0px;
+}
+}
+
+@media(max-width:415px) {
+
+    .main-slid-one,
+    .main-slid-two {
+        padding: 50px 0px;
+    }
+
+    button.navbar-toggler.collapsed {
+        margin-left: 225px;
+    }
+
+    .freight-card-text-logo {
+        top: 46%;
+    }
+
+    .freight-card-3 .freight-card-text-logo {
+        top: 46%;
+    }
+
+    .form-text-inner-text h1 {
+        font-size: 26px;
+    }
+
+    .house-text-main {
+        padding: 40px 8px 30px 100px;
+    }
+
+    .fixed-sec-main-div {
+        padding: 50px 0px;
+    }
+
+    .fixed-sec-content {
+        padding: 0px 10px;
+    }
+
+    .client-top-heading h1 {
+        font-size: 28px;
+    }
+
+    .client-carousel-img {
+        height: 360px;
+        width: 360px;
+    }
+
+    .footer-one-content-form input {
+        width: 210px;
+    }
+
+    .footer-one-content-form button {
+        padding: 8px 15px;
+        margin-left: 55px;
+    }
+}
+
+@media(max-width:413px) {
+
+    .main-slid-one,
+    .main-slid-two {
+        padding: 45px 0px;
+    }
+
+    .our-service-top-heading p {
+        padding: 0px 15px;
+    }
+
+    .footer-one-content-form button {
+        margin-left: 52px;
+    }
+
+    button.navbar-toggler {
+        margin-left: 200px;
+    }
+
+    .freight-card-text-logo {
+        top: 46%;
+    }
+
+    .client-carousel-img {
+        height: 280px;
+        width: 280px;
+    }
+}
+
+@media(max-width:391px) {
+
+    .main-slid-one,
+    .main-slid-two {
+        padding: 45px 0px;
+    }
+
+    .our-service-top-heading p {
+        padding: 0px 20px;
+    }
+
+    .fixed-sec-content h1 {
+        font-size: 18px;
+    }
+
+    .freight-card-text-logo {
+        top: 44%;
+    }
+
+    .freight-card-3 .freight-card-text-logo {
+        top: 44%;
+    }
+}
+
+@media(max-width:376px) {
+    button.navbar-toggler.collapsed {
+        margin-left: 185px;
+    }
+
+    .main-slid-one,
+    .main-slid-two {
+        padding: 45px 0px;
+    }
+
+    .freight-card-text-logo {
+        top: 42%;
+    }
+
+    .freight-card-3 .freight-card-text-logo {
+        top: 42%;
+    }
+
+    .our-service-top-heading h1 {
+        font-size: 28px;
+    }
+
+    .client-top-heading h1 {
+        font-size: 26px;
+    }
+
+    .client-carousel-img {
+        height: 320px;
+        width: 320px;
+    }
+
+    .footer-one-content-form button {
+        margin-left: 18px;
+    }
+}
+
+/* @media(max-width:361px){
+    .main-slid-one, .main-slid-two {
+    padding: 210px 0px;
+}
+} */
+@media(max-width:360px) {
+    button.navbar-toggler.collapsed {
+        margin-left: 170px;
+    }
+
+    .main-slid-one,
+    .main-slid-two {
+        padding: 50px 0px;
+    }
+
+    .freight-card-text-logo {
+        top: 43%;
+    }
+
+    .freight-card-3 .freight-card-text-logo {
+        top: 43%;
+    }
+
+    #freight {
+        padding: 30px 0px;
+    }
+
+    #form-text {
+        padding-top: 0px;
+    }
+
+    .form-text-inner-form h3 {
+        font-size: 22px;
+    }
+
+    .form-text-inner-text-icon-1 h3 {
+        font-size: 24px;
+    }
+
+    .our-service-top-heading h1 {
+        font-size: 28px;
+    }
+
+    #our-service {
+        padding-top: 44px;
+        padding-bottom: 44px;
+    }
+
+    .fixed-sec-content {
+        padding: 0px 5px;
+    }
+
+    .fixed-sec-main-div {
+        padding: 50px 0px;
+    }
+
+    .client-top-heading h1 {
+        font-size: 26px;
+    }
+
+    .client-carousel-img {
+        height: 275px;
+        width: 275px;
+    }
+
+    .footer-one-content-form input {
+        width: 200px;
+        padding: 6px;
+    }
+
+    .footer-one-content-form button {
+        padding: 6px 6px;
+        margin-left: 25px;
+    }
+}
+
+@media(max-width:345px) {
+    button.navbar-toggler {
+        margin-left: 140px;
+    }
+
+    .main-slid-one,
+    .main-slid-two {
+        padding: 35px 0px;
+    }
+
+    .freight-card-text-logo {
+        top: 42%;
+    }
+
+    .our-service-top-heading h1 {
+        font-size: 26px;
+    }
+
+    .our-service-top-heading p {
+        padding: 0px 16px;
+    }
+
+    .footer-one-content-form input {
+        width: 180px;
+        padding: 6px;
+    }
+}
+@media(max-width:321px){
+    button.navbar-toggler.collapsed {
+    margin-left: 130px;
+}
+}
