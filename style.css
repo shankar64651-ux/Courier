@@ -1,7 +1,6 @@
 * {
     font-family: "Roboto", sans-serif;
   box-sizing: border-box;
-
 }
 body, html {
   overflow-x: hidden;
@@ -9,16 +8,6 @@ body, html {
 
 header {
     background-color: #343a40;
-}
-.header-navbr {
-    background-color: white;
-    padding: 20px 100px;
-    position: fixed !important;
-    left: 0;
-    right: 0;
-    z-index: 10;
-    height: auto !important;   /* FIX */
-    border: none;
 }
 
 .all-items {
@@ -1643,24 +1632,14 @@ footer {
         margin-left: 155px;
     }
 
-    /* .navbar-collapse {
+    .navbar-collapse {
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.2s ease;
-    } */
-     .navbar-collapse {
-        display: block !important;
-        overflow: hidden;
-        height: 0;
-        transition: height 0.4s ease;
-        background: white;
-        box-shadow: 0px 0 18px rgba(0,0,0,0.1);
-        margin-top: 10px;
     }
 
     .navbar-collapse.show {
-        /* max-height: 500px; */
-        height: auto;
+        max-height: 500px;
     }
      .navbar-toggler {
         margin-left: auto;
